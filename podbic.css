@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    padding: 0px;
+background-color: #080d15;
+}
+.course{
+    grid-template-columns: repeat(4,1fr);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0,0,0.256);
+    gap: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 30px;
+    margin-right: 50px;
+
+    width: 80%;
+    left: 8%;
+    top: 13%;
+    right: 5%;
+    bottom: 5%;
+    
+}
+#learn:hover .course{
+    display: grid;
+    }
+
+.course div {
+border: 1px solid #ddd;
+     padding-left: 10px; 
+    border-radius: 10px;
+
+    overflow: hidden;
+    max-height: 70px;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+.course div h4,p {
+    margin: 2px;
+    
+}
+marquee{
+    background-color: azure;
+    gap: 100px;
+}
+   marquee  span{
+        margin: 0 10px;
+    }
+    marquee,nav{
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+
+ a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: orange;
+}
+nav{
+    background-color:white;
+     top: 0px;
+    padding: 0px;
+     border: 0px;  
+     width: 100%;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+     }
+.scrool {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    animation: scrool 40s linear infinite;
+}
+@keyframes scrool{
+    0% { transform:  translateX(100%);}
+    100% { transform: translateX(-100%);}
+
+} 
+.container{
+    display: flex;
+    color: white;
+    padding: 20px;
+    align-items: center; 
+}
+.left{
+    flex: 1;
+    text-align: center;
+    padding: 10px 40px;
+    align-items: center;
+    
+}
+.container .left h3,h1{
+    padding: 0;
+    margin: 0;
+}
+.container .left h3{
+    text-align: start;
+    margin-left: 140px;
+    margin-bottom: 2px;
+    border-left: 3px solid orange;
+    font-size: 16px;
+}
+.container .left h1{
+    font-size: 35px;
+}
+.right form{
+    padding: 30px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    bottom: 5px solid white;
+    align-items: center;
+    }
+.right form p {
+    color: #d46027;
+}
+
+.right form p, .right form h2{
+    margin: 4px;
+} 
+.container .right input:focus, select:focus{
+    box-shadow: inset 0 0 15px rgba(178, 195, 248, 0.699);
+}
+
+.right h2{
+    font-size: 18px;
+}
+.right h2 span{
+    color: #d46027;
+}
+.right p{
+    font-size: 0.65rem;
+    padding-top: 0px;
+}
+ 
+.right label span{
+    color: #d46027;
+}
+button{
+    background-color: #d46027;
+    font-size: 14.4px;
+    padding: 8px 30px; 
+    border: none;
+    cursor: pointer;
+    color: white;
+    
+}
+
+#enroll{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 40px;
+    
+}
+.container .right select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.container .right input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 70px;
+    margin-top: 10px;
+
+}
+
+.container .right form input,label{
+    padding-top: 3px;
+}
+.footer{
+    font-size: 0.65em;
+    line-height: 13px;
+}
+form label{
+    margin-bottom: 5px;
+}
+.box{
+    display: flex;
+    background-color: white;
+}
+.box div{
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
+
+}
+.box p,h3,h6{
+      margin:7px;
+      padding-top: 5px;
+}
+.box div:active{
+    background-color: #d46027;
+    color: #fff;
+}
+.box div h3{ 
+    font-size: 18.48px;
+    
+    
+.box div h6{
+    font-size: 11.2px;
+    color: #5a5a5a;
+    margin-bottom:  0px;
+}
+}
+.box div p{
+    font-size: 12.8px;
+}
+
+.section{
+    display: flex;
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.section .le{
+    width: 39%;
+}
+
+.section .le h1{
+    font-size: 45px;
+    color: white;
+    
+}
+
+.section .le h3{
+    font-size: 25px;
+    color: #ff1949;
+}
+.section .le p{
+    font-size: 20px;
+    color: white;
+}
+ .section h3, p {
+    padding: 8px;
+ }
+
+ .section .ri li{
+    color: #ddd;
+    font-size: 20px;
+ }
