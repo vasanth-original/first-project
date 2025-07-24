@@ -50,6 +50,7 @@ marquee{
         margin: 0px;
         padding: 0px;
         display: block;
+    
     }
 
  a{
@@ -146,7 +147,7 @@ nav{
 .right label span{
     color: #d46027;
 }
-button{
+ .container .started{
     background-color: #d46027;
     font-size: 14.4px;
     padding: 8px 30px; 
@@ -156,7 +157,8 @@ button{
     
 }
 
-#enroll{
+
+ .left .started{
     display: flex;
     margin-left: 135px;
     margin-top: 40px;
@@ -190,11 +192,11 @@ form label{
 }
 .box{
     display: flex;
-    background-color: white;
+    background-color: #ddd;
 }
 .box div{
     flex: 1;
-    border: 1px solid #ddd;
+    border: 1px solid #35323233;
     padding: 10px;
     
 
@@ -210,20 +212,20 @@ form label{
 .box div h3{ 
     font-size: 18.48px;
     
-    
+}
 .box div h6{
-    font-size: 11.2px;
+    font-size: 13.2px;
     color: #5a5a5a;
     margin-bottom:  0px;
 }
-}
+
 .box div p{
-    font-size: 12.8px;
+    font-size: 16.8px;
 }
 
 .section{
     display: flex;
-    padding-top: 90px;
+    padding: 130px;
     padding-left: 90px;
 }
 
@@ -252,4 +254,86 @@ form label{
  .section .ri li{
     color: #ddd;
     font-size: 20px;
+ }
+ .section .ri li img{
+   background-color: #ddd;
+ }
+
+.section .ri li{
+padding: 8px;
+}
+
+.section .ri li hr{
+    width: 100%;
+}
+
+.big{
+    background-color: #ddd;
+    padding: 40px;
+}
+.big #first{
+    font-size: 18px;
+    color: #ff1949;
+    padding-left:45%;
+}
+
+.big #second{
+    font-size: 45px;
+    padding-left:32%;
+    font-weight: bold;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    /* transition: all 2sec ease-in 0.2sec; */
+ }
+ .cards img{
+    border-radius: 13px;
+ }
+
+ .big .same{
+    background-color: #f0f0f0;
+    /* padding: 30px; */
+    width: 250px;
+    border: 1px silid #ddd;
+    border-radius: 10px;
+    transition: all 2sec ease-in 0.2sec;
+
+   
+ }
+
+  div .same:hover{
+    transform: scale(1.05);
+    
+ }
+
+ .big .cards button{
+    padding:4px 15px;
+    margin: 40px;
+ }
+
+  .same:hover .para{
+    color: #d46027;
+
+ }
+
+ .same .para{
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .big .cards button:hover{
+    color:white;
+    background-color: #d46027;
+
+ }
+  
+ .big .cards .graph{
+    color: #5a5a5a;
  }
